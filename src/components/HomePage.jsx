@@ -19,9 +19,9 @@ const HomePage = () => {
 
   const navLinks = [
     { href: "#about", label: "ABOUT" },
-    { href: "#projects", label: "PROJECTS" },
-    { href: "#skills", label: "SKILLS" },
     { href: "#experiences", label: "EXPERIENCES" },
+    { href: "#skills", label: "SKILLS" },
+    { href: "#projects", label: "PROJECTS" },
     { href: "#education", label: "EDUCATION" },
     { href: "#contact", label: "CONTACT" },
   ];
@@ -107,16 +107,6 @@ const HomePage = () => {
           </p>
         </section>
 
-        <section id="projects" className="section">
-          <h2>Projects</h2>
-          <ProjectCarousel />
-        </section>
-
-        <section id="skills" className="section">
-          <h2>Skills</h2>
-          <SkillsMarquee />
-        </section>
-
         <section id="experiences" className="section experiences-section">
           <h2>Experiences</h2>
           <div className="experiences-content">
@@ -141,6 +131,15 @@ const HomePage = () => {
           </div>
         </section>
 
+        <section id="skills" className="section">
+          <h2>Skills</h2>
+          <SkillsMarquee />
+        </section>
+
+<section id="projects" className="section">
+          <h2>Projects</h2>
+          <ProjectCarousel />
+        </section>
         <section id="education" className="section">
           <h2>Education</h2>
           <Education />
