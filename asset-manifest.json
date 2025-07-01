@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/suzan-ayesh-portfolio/static/css/main.e4f78b5f.css",
+    "main.css": "/suzan-ayesh-portfolio/static/css/main.e3237ed2.css",
     "main.js": "/suzan-ayesh-portfolio/static/js/main.05c149f5.js",
     "static/js/453.d7fafd29.chunk.js": "/suzan-ayesh-portfolio/static/js/453.d7fafd29.chunk.js",
     "static/media/suzan5.png": "/suzan-ayesh-portfolio/static/media/suzan5.6d2282161c4737a2b649.png",
@@ -39,12 +39,12 @@
     "static/media/expressjs.png": "/suzan-ayesh-portfolio/static/media/expressjs.3f667c42742aa59a80b5.png",
     "static/media/nodejs.png": "/suzan-ayesh-portfolio/static/media/nodejs.63d2a094002e0a8ad015.png",
     "index.html": "/suzan-ayesh-portfolio/index.html",
-    "main.e4f78b5f.css.map": "/suzan-ayesh-portfolio/static/css/main.e4f78b5f.css.map",
+    "main.e3237ed2.css.map": "/suzan-ayesh-portfolio/static/css/main.e3237ed2.css.map",
     "main.05c149f5.js.map": "/suzan-ayesh-portfolio/static/js/main.05c149f5.js.map",
     "453.d7fafd29.chunk.js.map": "/suzan-ayesh-portfolio/static/js/453.d7fafd29.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e4f78b5f.css",
+    "static/css/main.e3237ed2.css",
     "static/js/main.05c149f5.js"
   ]
 }
