@@ -1,7 +1,8 @@
+// src/components/SkillsMarquee.jsx
 import { useState } from "react";
 import "./SkillsMarquee.css";
 
-// Replace these imports with your actual logo paths:
+// Import logos
 import agile from "../assets/agile.png";
 import aws from "../assets/aws.png";
 import css3 from "../assets/css3.png";
@@ -28,8 +29,8 @@ import ts from "../assets/typescript.png";
 import uxui from "../assets/uxui.png";
 
 const logos = [
-  linux, reactLogo, uxui, spring,flutter, sql, railway,
-  php, docker, aws, agile, jquery, javaLogo,pydi,
+  linux, reactLogo, uxui, spring, flutter, sql, railway,
+  php, docker, aws, agile, jquery, javaLogo, pydi,
   html5, css3, cyber, js, git, ts, node, express,
   figma, postgres,
 ];
@@ -50,7 +51,7 @@ export default function SkillsMarquee() {
         <div className="marquee__inner">
           {[...logos, ...logos].map((logo, i) => (
             <div className="marquee__item" key={i}>
-              <img src={logo} alt="" />
+              <img src={logo} alt={`Skill ${i}`} />
             </div>
           ))}
         </div>
