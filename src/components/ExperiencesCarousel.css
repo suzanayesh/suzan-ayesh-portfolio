@@ -3,14 +3,13 @@
 }
 
 /* 0) Full-width breakout wrapper */
-/* Paste this into HomePage.css if you prefer global styles */
 .experiences-fullwidth {
   position: relative;
   width: 100vw;
   left: 50%;
   margin-left: -50vw;
   box-sizing: border-box;
-  padding: 0 var(--exp-gap); /* optional side padding */
+  padding: 0 var(--exp-gap);
 }
 
 /* 1) Carousel container */
@@ -18,13 +17,13 @@
   position: relative;
   display: flex;
   align-items: center;
-  justify-content: flex-start; /* cards fill left→right */
+  justify-content: flex-start;
   width: 100%;
   gap: var(--exp-gap);
   box-sizing: border-box;
 }
 
-/* 2) Arrows overlaid on edges */
+/* 2) Arrows */
 .exp-nav {
   position: absolute;
   top: 50%;
@@ -41,7 +40,7 @@
 .exp-nav.next { right: 10px; }
 .exp-nav:hover { color: darkorange; }
 
-/* 3) Scrollable strip */
+/* 3) Scrollable area */
 .exp-slider {
   display: flex;
   gap: var(--exp-gap);
@@ -50,14 +49,13 @@
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
   -webkit-overflow-scrolling: touch;
-  scrollbar-width: none; /* Firefox */
+  scrollbar-width: none;
 }
 .exp-slider::-webkit-scrollbar {
-  display: none;         /* Chrome/Safari */
+  display: none;
 }
 
-
-/* 4) Card sizing: 3 cards + 2 gaps = 100% */
+/* 4) Card styling: default is 3 cards */
 .exp-card {
   scroll-snap-align: start;
   flex: 0 0 calc((100% - (var(--exp-gap) * 2)) / 3);
@@ -69,10 +67,10 @@
   gap: 16px;
   padding: 24px;
   box-sizing: border-box;
-  min-height: 550px; /* adjust for your content */
+  min-height: 550px;
 }
 
-/* 5) Uniform logo frame */
+/* 5) Image frame */
 .exp-image-container {
   width: 100%;
   height: 200px;
@@ -89,7 +87,7 @@
   object-fit: contain;
 }
 
-/* 6) Card content */
+/* 6) Text content */
 .exp-title {
   margin: 0;
   font-size: 1.25rem;
@@ -126,18 +124,28 @@
   color: gold;
   transition: color 0.2s;
 }
-.exp-link:hover { color: darkorange; }
-/* in ExperiencesCarousel.css */
+.exp-link:hover {
+  color: darkorange;
+}
 
+/* 7) Figma inline link */
 .figma-inline-link {
   color: #f1c40f;
   text-decoration: underline;
   font-weight: bold;
 }
 
-/* 7) Mobile: one card per view */
+/* 8) Medium screens: 2 cards per view */
+@media (max-width: 1024px) {
+  .exp-card {
+    flex: 0 0 calc((100% - var(--exp-gap)) / 2);
+  }
+}
+
+/* 9) Small screens: 1 card per view */
 @media (max-width: 600px) {
   .exp-card {
     flex: 0 0 100%;
   }
 }
+ 
