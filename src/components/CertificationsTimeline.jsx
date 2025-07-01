@@ -57,7 +57,7 @@ const certifications = [
     date: "Jan–Jun 2025",
     details:
       "A six-month training program with professional instructors (e.g., Microsoft engineers at leading companies), aimed at preparing Palestinian youth for the job market.",
-    link: "#", // placeholder
+    link: "https://drive.google.com/file/d/1kQiByGrrGaaKFjr0d_kcPkp2V5ny1DKD/view?usp=sharing", // placeholder
   },
 ];
 
