@@ -1,0 +1,86 @@
+/* Container & nav arrows */
+.experience-carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 40px;
+}
+
+.exp-nav {
+  background: transparent;
+  border: none;
+  font-size: 2rem;
+  color: gold;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+.exp-nav:hover {
+  color: darkorange;
+}
+
+/* The card itself */
+.exp-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* Top logo/image */
+.exp-image {
+  width: 100%;
+  height: 140px;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+/* Title & description */
+.exp-title {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.exp-description {
+  flex: 1;
+  font-size: 0.9rem;
+  line-height: 1.4;
+  color: #444;
+}
+
+/* Tags */
+.exp-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.tag {
+  background: #f0f0f0;
+  border-radius: 4px;
+  padding: 2px 6px;
+  font-size: 0.7rem;
+  color: #333;
+}
+
+/* Footer: date/role + external link arrow */
+.exp-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: auto;
+}
+.exp-date {
+  font-size: 0.75rem;
+  color: #777;
+}
+.exp-link {
+  color: gold;
+  transition: color 0.2s;
+}
+.exp-link:hover {
+  color: darkorange;
+}

@@ -1,0 +1,50 @@
+.languages-section {
+  max-width: 800px;
+  margin: 0 auto 80px;
+  padding: 0 10px;
+  text-align: center;
+}
+
+.languages-section h2 {
+  font-size: 2rem;
+  margin-bottom: 24px;
+  color: #333;
+}
+
+.rings-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.ring-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.ring-svg {
+  transform: rotate(-90deg);
+  overflow: visible;
+}
+
+.ring-progress {
+  transition: stroke-dashoffset 0.8s ease;
+}
+
+.ring-label {
+  text-align: center;
+}
+
+.ring-label strong {
+  display: block;
+  font-size: 1rem;
+  color: #222;
+}
+
+.ring-sub {
+  font-size: 0.85rem;
+  color: #666;
+}

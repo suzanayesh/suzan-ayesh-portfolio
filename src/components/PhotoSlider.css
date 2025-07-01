@@ -1,0 +1,84 @@
+/* 1) Slider container with V-notch at 75% across */
+.slider {
+  position: relative;
+  width: 100%;
+  height: 400px;             
+  overflow: hidden;
+  background-color: rgba(239, 239, 239, 1);
+  clip-path: polygon(
+    0%   0%,    
+    100% 0%,    
+    100% 80%,   
+    75%  100%,  
+    0%   80%    
+  );
+}
+
+/* 2) Base slide styling */
+.slide {
+  position: absolute;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+  object-fit: cover;
+}
+
+/* 3) First slide: oversized & pinned under notch */
+.slide-1 {
+  top: -25%;
+  left: 75%;
+  width: auto;
+  height: 150%;
+  transform: translateX(-50%);
+}
+.slide-1.active {
+  opacity: 1;
+}
+
+/* 4) Other slides always fill the shape */
+.slide-2,
+.slide-3 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.slide-2.active,
+.slide-3.active {
+  opacity: 1;
+}
+
+/* 5) Navigation arrows */
+.nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: transparent;
+  border: none;
+  font-size: 2rem;
+  color: gold;
+  padding: 0 10px;
+  cursor: pointer;
+  user-select: none;
+}
+.prev { left: 20px; }
+.next { right: 20px; }
+
+/* 6) Caption (only on slide 1) */
+.caption {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  text-align: left;
+}
+.caption h1 {
+  margin: 0;
+  font-size: 3rem;
+  font-weight: 300;
+  color: #333;
+}
+.caption h2 {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #333;
+}
