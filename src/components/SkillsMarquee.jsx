@@ -1,4 +1,3 @@
-// src/components/SkillsMarquee.jsx
 import { useState } from "react";
 import "./SkillsMarquee.css";
 
@@ -38,7 +37,7 @@ const logos = [
 export default function SkillsMarquee() {
   const [paused, setPaused] = useState(false);
 
-  const togglePaused = () => setPaused((p) => !p);
+  const togglePaused = () => setPaused(prev => !prev);
 
   return (
     <section id="skills" className="skills-section">

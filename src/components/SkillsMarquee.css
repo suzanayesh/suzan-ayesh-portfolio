@@ -35,6 +35,16 @@
   cursor: pointer;
 }
 
+.marquee.paused {
+  overflow-x: auto;         /* Allow manual scroll */
+  cursor: grab;
+  scrollbar-width: none;    /* Firefox */
+  -ms-overflow-style: none; /* IE 10+ */
+}
+.marquee.paused::-webkit-scrollbar {
+  display: none;            /* Chrome/Safari */
+}
+
 .marquee__inner {
   display: flex;
   width: max-content;
