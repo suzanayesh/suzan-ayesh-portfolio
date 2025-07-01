@@ -367,7 +367,7 @@ position: sticky;
 }
 
 .mobile-menu-list a:hover {
-  color: yellow;
+  color: #000000;
 }
 .mobile-cv-button {
   display: inline-flex;
