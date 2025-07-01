@@ -365,9 +365,12 @@ position: sticky;
   font-size: 1.1rem;
   font-weight: 500;
 }
-
-.mobile-menu-list a:hover {
-  color: #000000;
+.mobile-menu-list a,
+.mobile-menu-list a:visited,
+.mobile-menu-list a:hover,
+.mobile-menu-list a:active,
+.mobile-menu-list a:focus {
+  color: black !important;
 }
 .mobile-cv-button {
   display: inline-flex;
