@@ -360,14 +360,14 @@ position: sticky;
 }
 
 .mobile-menu-list a {
-  color: gray;
+  color: black;
   text-decoration: none;
   font-size: 1.1rem;
   font-weight: 500;
 }
 
 .mobile-menu-list a:hover {
-  color: black;
+  color: yellow;
 }
 .mobile-cv-button {
   display: inline-flex;
