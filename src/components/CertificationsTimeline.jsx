@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import "./CertificationsTimeline.css";
 
 const certifications = [
@@ -12,7 +12,7 @@ const certifications = [
   },
   {
     title: "Advanced JavaScript",
-    provider: "Gaza Sky Geeks — On-site 4-week bootcamp",
+    provider: "Gaza Sky Geeks — 35h-Online bootcamp",
     date: "2023",
     details:
       "Modern JS (ES6+), DOM & Console debugging, code-by-code walkthroughs, pre-/post-JS web fundamentals",
