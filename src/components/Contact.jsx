@@ -1,11 +1,12 @@
+// src/components/Contact.jsx
+
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import resumeFile from "../SuzanAyesh_Resume.pdf";
-
 import {
   FiFileText,
   FiMail,
   FiMapPin,
-  FiPhone
+  FiPhone,
 } from "react-icons/fi";
 import "./Contact.css";
 
@@ -44,17 +45,16 @@ export default function Contact() {
       label: "GitHub",
       value: "suzanayesh",
       href: "https://github.com/suzanayesh",
-      color: "#000",
+      color: "#000000",
     },
-   {
-  icon: <FiFileText />,
-  label: "Resume",
-  value: "Download",
-  href: resumeFile,
-  color: "#9C27B0",
-  download: "SuzanAyesh_Resume.pdf",
-}
-,
+    {
+      icon: <FiFileText />,
+      label: "Resume",
+      value: "Open",
+      href: resumeFile,
+      color: "#9C27B0",
+      external: true, // This will trigger opening in a new tab
+    },
   ];
 
   return (
@@ -71,12 +71,10 @@ export default function Contact() {
               <a
                 key={c.label}
                 href={c.href}
-                className={`contact-item${c.download ? " resume" : ""}`}
+                className="contact-item"
                 style={{ "--item-color": c.color }}
-                {...(c.href.startsWith("http")
-                  ? { target: "_blank", rel: "noopener noreferrer" }
-                  : {})}
-                {...(c.download ? { download: c.download } : {})}
+                target={c.href.startsWith("http") || c.external ? "_blank" : undefined}
+                rel={c.href.startsWith("http") || c.external ? "noopener noreferrer" : undefined}
               >
                 <div className="item-icon">{c.icon}</div>
                 <div className="item-label">{c.label}</div>

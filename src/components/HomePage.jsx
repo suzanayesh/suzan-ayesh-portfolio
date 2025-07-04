@@ -54,7 +54,8 @@ const HomePage = () => {
             </ul>
             <a
               href={cvFile}
-              download="SuzanAyesh_CV.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
               className="cv-button"
             >
               My CV <FiDownload />
@@ -79,7 +80,8 @@ const HomePage = () => {
         </ul>
         <a
           href={cvFile}
-          download="SuzanAyesh_CV.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
           className="mobile-cv-button"
           onClick={() => setMenuOpen(false)}
         >
@@ -136,10 +138,11 @@ const HomePage = () => {
           <SkillsMarquee />
         </section>
 
-<section id="projects" className="section">
+        <section id="projects" className="section">
           <h2>Projects</h2>
           <ProjectCarousel />
         </section>
+
         <section id="education" className="section">
           <h2>Education</h2>
           <Education />
