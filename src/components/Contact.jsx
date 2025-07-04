@@ -21,8 +21,8 @@ export default function Contact() {
     {
       icon: <FiPhone />,
       label: "Phone",
-      value: "0597669358",
-      href: "tel:0597669358",
+      value: "0000000",
+      href: "tel:000000",
       color: "#4CAF50",
     },
     {
