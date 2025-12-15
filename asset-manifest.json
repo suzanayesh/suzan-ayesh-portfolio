@@ -1,17 +1,20 @@
 {
   "files": {
     "main.css": "/suzan-ayesh-portfolio/static/css/main.ea9cc0ac.css",
-    "main.js": "/suzan-ayesh-portfolio/static/js/main.fb0c6c4a.js",
+    "main.js": "/suzan-ayesh-portfolio/static/js/main.82f66c8f.js",
     "static/js/453.d7fafd29.chunk.js": "/suzan-ayesh-portfolio/static/js/453.d7fafd29.chunk.js",
     "static/media/suzan5.png": "/suzan-ayesh-portfolio/static/media/suzan5.6d2282161c4737a2b649.png",
     "static/media/buc.png": "/suzan-ayesh-portfolio/static/media/buc.a1d9b41a0fffee8e2cd4.png",
     "static/media/medic.png": "/suzan-ayesh-portfolio/static/media/medic.5750b75db5f288e4fec9.png",
     "static/media/BU.png": "/suzan-ayesh-portfolio/static/media/BU.2a90f8d688f1f15f2038.png",
     "static/media/suzan.png": "/suzan-ayesh-portfolio/static/media/suzan.cdc231a5efe3a7af2562.png",
+    "static/media/placeholder4.png": "/suzan-ayesh-portfolio/static/media/placeholder4.904bdf6154ec52c47de6.png",
     "static/media/postgres.png": "/suzan-ayesh-portfolio/static/media/postgres.519a271ad6537a824c0c.png",
+    "static/media/placeholder3.png": "/suzan-ayesh-portfolio/static/media/placeholder3.4956ac8aa3c5e2b02811.png",
     "static/media/suzan4.png": "/suzan-ayesh-portfolio/static/media/suzan4.f74ea4295323510776fd.png",
     "static/media/java.png": "/suzan-ayesh-portfolio/static/media/java.a41599ad2d13a35e6b31.png",
     "static/media/sql.png": "/suzan-ayesh-portfolio/static/media/sql.fec9bcba3f8482d22b0f.png",
+    "static/media/placeholder2.png": "/suzan-ayesh-portfolio/static/media/placeholder2.e6adc74c8c7616ca53b2.png",
     "static/media/SuzanAyesh_Resume.pdf": "/suzan-ayesh-portfolio/static/media/SuzanAyesh_Resume.bce2e3782b3e5ce669bd.pdf",
     "static/media/aws.png": "/suzan-ayesh-portfolio/static/media/aws.6645f7166a4861aca8c2.png",
     "static/media/SuzanAyesh_CV.pdf": "/suzan-ayesh-portfolio/static/media/SuzanAyesh_CV.48939b172137dbb83026.pdf",
@@ -40,11 +43,11 @@
     "static/media/nodejs.png": "/suzan-ayesh-portfolio/static/media/nodejs.63d2a094002e0a8ad015.png",
     "index.html": "/suzan-ayesh-portfolio/index.html",
     "main.ea9cc0ac.css.map": "/suzan-ayesh-portfolio/static/css/main.ea9cc0ac.css.map",
-    "main.fb0c6c4a.js.map": "/suzan-ayesh-portfolio/static/js/main.fb0c6c4a.js.map",
+    "main.82f66c8f.js.map": "/suzan-ayesh-portfolio/static/js/main.82f66c8f.js.map",
     "453.d7fafd29.chunk.js.map": "/suzan-ayesh-portfolio/static/js/453.d7fafd29.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ea9cc0ac.css",
-    "static/js/main.fb0c6c4a.js"
+    "static/js/main.82f66c8f.js"
   ]
 }
