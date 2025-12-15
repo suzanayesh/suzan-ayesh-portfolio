@@ -1,25 +1,53 @@
 // src/components/ExperiencesCarousel.jsx
-import React, { useRef, useState } from "react";
-import { FiChevronLeft, FiChevronRight, FiArrowRight } from "react-icons/fi";
+import { useRef, useState } from "react";
+import { FiArrowRight, FiChevronLeft, FiChevronRight } from "react-icons/fi";
 import "./ExperiencesCarousel.css";
 
+import BULogo from "../assets/BU.png";
+import CharegliLogo from "../assets/charegli.png";
+import CMSLogo from "../assets/cms.png";
+import MedicLogo from "../assets/medic.png";
 import PlaceholderLogo from "../assets/placeholder.png";
-import SouqifyLogo     from "../assets/souqify.png";
-import CharegliLogo    from "../assets/charegli.png";
-import CMSLogo         from "../assets/cms.png";
-import SuziLogo        from "../assets/suzi.png";
-import BULogo          from "../assets/BU.png";
-import MedicLogo       from "../assets/medic.png";
+import PlaceholderLogo2 from "../assets/placeholder2.png";
+import PlaceholderLogo3 from "../assets/placeholder3.png";
+import PlaceholderLogo4 from "../assets/placeholder4.png";
+
+import SouqifyLogo from "../assets/souqify.png";
+import SuziLogo from "../assets/suzi.png";
 
 const experiences = [
   {
-    title: "Not Allowed to Publish it yet",
-    image: PlaceholderLogo,
+    title: "Figma DesignNot Allowed to Publish it yet",
+    image: PlaceholderLogo2,
     description: "“as Client went”",
     tags: [],
     dateRole: "",
     externalUrl: "#",
   },
+  {
+  title: "Figma DesignNot Allowed to Publish it yet",
+  image: PlaceholderLogo3,
+  description: "“as Client went”",
+  tags: [],
+  dateRole: "",
+  externalUrl: "#",
+},
+{
+  title: "Figma DesignNot Allowed to Publish it yet",
+  image: PlaceholderLogo4,
+  description: "“as Client went”",
+  tags: [],
+  dateRole: "",
+  externalUrl: "#",
+},
+{
+  title: "Figma DesignNot Allowed to Publish it yet",
+  image: PlaceholderLogo,
+  description: "“as Client went”",
+  tags: [],
+  dateRole: "",
+  externalUrl: "#",
+},
   {
     title: "Souqify App",
     image: SouqifyLogo,
