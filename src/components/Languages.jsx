@@ -4,6 +4,8 @@ const languages = [
   { name: "Arabic", level: 5, label: "Native", color: "#E64A19" },
   { name: "English", level: 4, label: "Fluent", color: "#2196F3" },
   { name: "Turkish", level: 3, label: "Intermediate", color: "#4CAF50" },
+    { name: "Hebrew", level: 2, label: "Basic", color: "#af4ca2ff" },
+
 ];
 
 export default function Languages() {
